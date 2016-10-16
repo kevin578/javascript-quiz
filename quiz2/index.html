@@ -20,16 +20,25 @@
 <input type = "text" name = "question1">
 
 <p class = "questions">What is the capital of Connecticut?</p>
-<input type = "radio" id = "radio" name = "question2" value = "Hartford">Hartford<br>
-<input type = "radio" id = "radio" name = "question2" value = "Heartford"> Heartford<br>
+<input type = "radio" id = "mc" name = "question2" value = "Hartford"> Hartford<br>
+<input type = "radio" id = "mc" name = "question2" value = "Heartford"> Heartford<br>
+
+<p class = "questions">What is the capital of New York (check all that apply)</p>
+
+<input type = "checkbox" id = "mc" name = "question3" value = "Albany"> Albany<br>
+<input type = "checkbox" id = "mc" name = "question3" value = "Albany"> Albany<br>
+<input type = "checkbox" id = "mc" name = "question3" value = "Albany"> Not Albany<br>
+
 
 <input type = "button" value = "I'm finished!" onclick = "validate();">
 
 </form>
 
-
-<p id = "answer">You are correct</p>
-
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"
+<img id = "picture">
+</div>
 </html>
 
 </body>

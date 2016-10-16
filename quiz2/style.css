@@ -11,7 +11,7 @@ h1 {
 	margin-left: 10px;
 }
 
-#answer {
+#after_submit {
 	visibility: hidden;
 }
 
@@ -20,6 +20,6 @@ input {
 	display: block;
 }
 
-#radio {
+#mc {
 	display: inline;
 } 
