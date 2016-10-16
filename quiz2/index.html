@@ -2,15 +2,36 @@
 <html>
 <head>
 
-<title>Kevin's Kwiz!</title>>
-
+<title>Kevin's Kwiz!</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
+<h1>This is best quiz on the internet!</h1>
+
+<form name = "quiz">
 
 
+<p class = "questions">What is the capital of Rhode Island?</p>
+<input type = "text" name = "question1">
 
+<input type = "submit" value = "I'm finished!" onclick = "validate();">
 
-
+</form>
 
 </html>
+
+<script>
+
+function validate(){
+
+	var question1 = document.quiz.question1;
+	if (question1.value == "Providence") {
+		console.log("You are correct");
+	}
+}
+
+</script>
+
+
 
