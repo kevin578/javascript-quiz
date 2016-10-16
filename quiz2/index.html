@@ -5,8 +5,12 @@
 <title>Kevin's Kwiz!</title>
 <link href ="style.css" rel ="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
 </head>
 
+
+<body>
 <h1>This is best quiz on the internet!</h1>
 
 <form name = "quiz">
@@ -15,23 +19,20 @@
 <p class = "questions">What is the capital of Rhode Island?</p>
 <input type = "text" name = "question1">
 
-<input type = "submit" value = "I'm finished!" onclick = "validate();">
+<p class = "questions">What is the capital of Connecticut?</p>
+<input type = "radio" id = "radio" name = "question2" value = "Hartford">Hartford<br>
+<input type = "radio" id = "radio" name = "question2" value = "Heartford"> Heartford<br>
+
+<input type = "button" value = "I'm finished!" onclick = "validate();">
 
 </form>
 
+
+<p id = "answer">You are correct</p>
+
 </html>
 
-<script>
-
-function validate(){
-
-	var question1 = document.quiz.question1;
-	if (question1.value == "Providence") {
-		console.log("You are correct");
-	}
-}
-
-</script>
+</body>
 
 
 
