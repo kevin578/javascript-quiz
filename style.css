@@ -14,12 +14,16 @@ body {
 
 }
 
+input {
+	margin-bottom: 20px;
+	display: block;
+}
+
 #textbox {
 	height: 25px;
 	font-size: 16px;
 	border-radius: 5px;
 	border: none;
-	font-family: 'Lato', sans-serif;
 	padding-left: 5px;
 }
 
@@ -29,7 +33,6 @@ body {
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
-	font-family: 'Lato', sans-serif;
 	color: white;
 	font-size: 16px;
 	transition-duration: .5s;
@@ -64,10 +67,7 @@ body {
 	height: 245px;
 }
 
-input {
-	margin-bottom: 20px;
-	display: block;
-}
+
 
 #mc {
 	display: inline;
